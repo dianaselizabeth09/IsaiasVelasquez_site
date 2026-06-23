@@ -1,0 +1,604 @@
+{
+  "common": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "gallery": "Gallery",
+    "previous": "Previous",
+    "next": "Next",
+    "play": "Play",
+    "pause": "Pause"
+  },
+  "header": {
+    "logo": "{{name}} logo",
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "about": "About",
+      "contact": "Contact",
+      "faq": "FAQ",
+      "gallery": "Gallery",
+      "service_areas": "Service Areas"
+    },
+    "cta": "Get a Quote",
+    "language": {
+      "en": "EN",
+      "es": "ES"
+    }
+  },
+  "template": {
+    "placeholders": {
+      "business_name": "Your Business Name",
+      "tagline": "Service Landing Template",
+      "description": "Editable landing page template for service businesses. Replace the copy, contact data, imagery, and service details before publishing."
+    }
+  },
+  "footer": {
+    "about": "Professional landscaping and outdoor services for residential and commercial clients.",
+    "quick_links": {
+      "title": "Quick Links",
+      "home": "Home",
+      "services": "Services",
+      "about": "About",
+      "contact": "Contact",
+      "faq": "FAQ"
+    },
+    "services": {
+      "title": "Services",
+      "service1": "Primary Service",
+      "service2": "Secondary Service",
+      "service3": "Support Service"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookies",
+      "accessibility": "Accessibility",
+      "sitemap": "Sitemap"
+    },
+    "contact": {
+      "title": "Contact",
+      "phone": "(000) 000-0000",
+      "email": "hello@example.com"
+    },
+    "crescendo": "Powered by Crescendo Marketing",
+    "copyright": "© {{year}} Isaías Velásquez Landscaping Services. All rights reserved.",
+    "copyright_rights": "All rights reserved.",
+    "about_description": "Tree services, decks, patios, lawn care, landscape maintenance, cleanup, mulching, rocks, trimming, edging, and more.",
+    "marketing_by": "Marketing by",
+    "main_services": "Main Services",
+    "more_services": "More Services",
+    "company": "Company",
+    "hours_label": "Hours:",
+    "payment_label": "Payment:",
+    "area_label": "Area:"
+  },
+  "floating": {
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "google": "Google Business Profile",
+    "whatsapp": "WhatsApp",
+    "scroll_top": "Scroll to top",
+    "call": "Call",
+    "cookie_title": "Cookie Settings",
+    "cookie_text": "We use cookies to improve your browsing experience and remember your preferences.",
+    "cookie_accept": "Accept All",
+    "cookie_reject": "Reject All",
+    "cookie_essential": "Essential Cookies",
+    "cookie_essential_desc": "Required for the website to function properly.",
+    "cookie_preference": "Preference Cookies",
+    "cookie_preference_desc": "Remember your settings and preferences.",
+    "cookie_analytics": "Analytics Cookies",
+    "cookie_analytics_desc": "Help us understand visitor behavior.",
+    "cookie_save": "Save My Preferences",
+    "access_title": "Accessibility Tools",
+    "access_contrast": "High Contrast",
+    "access_grayscale": "Grayscale",
+    "access_underline": "Underline Links",
+    "access_save": "Save Preferences"
+  },
+  "home": {
+    "hero": {
+      "title": "Build a service landing page that is ready to customize",
+      "subtitle": "Swap in your real offer, trust signals, visuals, and contact details without rebuilding the layout, SEO, or bilingual structure.",
+      "cta": "Start with this template",
+      "badge": "Editable template",
+      "greeting": "Service business starter",
+      "social_proof": {
+        "clients_count": "Bilingual",
+        "clients_text": "layout and SEO foundation included"
+      },
+      "floating_cards": {
+        "rating": {
+          "label": "Service blocks",
+          "value": "3 ready"
+        },
+        "experience": {
+          "label": "Languages",
+          "value": "EN + ES"
+        },
+        "projects": {
+          "label": "SEO basics",
+          "value": "Included"
+        }
+      }
+    },
+    "services": {
+      "title": "Service Sections",
+      "subtitle": "Each service has its own content block so you can explain scope, outcomes, and next steps without extra pages.",
+      "cta": "View service sections"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Answer the questions prospects usually have before they decide to contact you.",
+      "cta": "See all FAQs"
+    },
+    "contact": {
+      "title": "Contact",
+      "subtitle": "Keep one clear conversion point with phone, email, hours, and a short inquiry form.",
+      "cta": "Contact now"
+    },
+    "gallery_preview": {
+      "title": "Visual Mockup",
+      "subtitle": "This template ships with a single neutral mock asset so missing photography stays obvious during review.",
+      "cta": "View gallery layout"
+    }
+  },
+  "services": {
+    "title": "Landscaping & Outdoor Services",
+    "subtitle": "Tree services, decks, patios, lawn care, landscape maintenance, cleanup, mulching, rocks, trimming, edging, and more for the 23185 service area.",
+    "cta": "Request details",
+    "tree-services": {
+    "title": "Best Tree Services",
+      "description": "Tree service support to help keep outdoor areas safer, cleaner, and better maintained."
+    },
+    "decks-and-patios": {
+      "title": "Best Decks and Patios",
+      "description": "Deck and patio services that help improve outdoor living spaces and curb appeal."
+    },
+    "landscape-maintenance": {
+      "title": "Best Landscape Maintenance",
+      "description": "Ongoing landscape maintenance to keep beds, plants, edges, and exterior areas looking clean."
+    },
+    "lawn-maintenance": {
+      "title": "Best Lawn Maintenance",
+      "description": "Dependable lawn maintenance for healthy, neat, and professionally cared-for grass."
+    },
+    "lawn-mowing": {
+      "title": "Best Lawn Mowing",
+      "description": "Regular lawn mowing to keep grass neat, clean, and professionally maintained for homes and businesses."
+    },
+    "yard-cleanup": {
+      "title": "Best Yard Cleanup",
+      "description": "Cleanup services to remove debris, improve presentation, and make outdoor areas easier to enjoy."
+    },
+    "mulching-installation": {
+      "title": "Best Mulching Installation",
+      "description": "Fresh mulch installation to improve curb appeal, protect soil, and give outdoor areas a clean finished look."
+    },
+    "and-more": {
+      "title": "And More",
+      "description": "Additional outdoor services based on your property needs, schedule, and project scope."
+    },
+    "rock-installation": {
+      "title": "Best Rock Installation",
+      "description": "Decorative rock installation for clean, durable, low-maintenance landscape areas."
+    },
+    "bush-trimming": {
+      "title": "Best Bush Trimming",
+      "description": "Bush trimming to shape overgrowth, improve curb appeal, and keep plants looking cared for."
+    },
+    "lawn-edging": {
+      "title": "Best Lawn Edging",
+      "description": "Clean lawn edging for crisp borders along sidewalks, driveways, beds, and patios."
+    },
+    "service1": {
+      "title": "Primary Service",
+      "description": "Describe your flagship service, the result it delivers, who it is for, and why your process is different. Keep the outcome clear and concrete."
+    },
+    "service2": {
+      "title": "Secondary Service",
+      "description": "Use the second section for a complementary offer, a specialized variation, or a high-value service that supports the core of your business."
+    },
+    "service3": {
+      "title": "Support Service",
+      "description": "This section works well for maintenance, follow-up, consultation, or any supporting service that helps convert undecided visitors."
+    },
+    "header": {
+      "title": "Service Sections",
+      "subtitle": "Structured blocks for your real services, each with room for image, copy, and CTA."
+    },
+    "cards": [
+      {
+        "title": "Primary Service",
+        "description": "Summarize the main offer and the outcome clients can expect.",
+        "cta": "Request quote"
+      },
+      {
+        "title": "Secondary Service",
+        "description": "Use this card to present a supporting or specialized offer.",
+        "cta": "Request quote"
+      },
+      {
+        "title": "Support Service",
+        "description": "Describe the service that removes objections or extends client value.",
+        "cta": "Request quote"
+      }
+    ]
+  },
+  "service_groups": {
+    "Tree Services": "Tree Services",
+    "Outdoor Living": "Outdoor Living",
+    "Lawn Care": "Lawn Care",
+    "Landscape Services": "Landscape Services",
+    "Cleanup & More": "Cleanup & More"
+  },
+  "services_page": {
+    "seo_title": "Our Services",
+    "seo_description": "Tree services, decks, patios, lawn care, mowing, cleanup, mulching, rock installation, trimming, edging, & more from Isaías Velásquez Landscaping Services.",
+    "badge": "Complete Outdoor Property Care",
+    "title": "Best Landscaping & Outdoor Services",
+    "subtitle": "Choose the service you need and open its dedicated page for details, benefits, process, FAQ, gallery, and quote form.",
+    "call": "Call",
+    "whatsapp": "WhatsApp Quote",
+    "section_label": "Our Services",
+    "section_title": "Beautiful, practical outdoor services for homes and businesses.",
+    "section_description": "Isaías Velásquez Landscaping Services helps residential and commercial clients with tree services, decks and patios, lawn care, landscape maintenance, yard cleanup, mulching, rock installation, bush trimming, edging, and more.",
+    "view_service": "View Service",
+    "view_all": "View all services"
+  },
+  "services_detail": {
+    "seo_description": "Reliable landscaping services for residential and commercial properties. Tree care, lawn maintenance, decks, patios, cleanup, and more in the 23185 area.",
+    "service_label": "Service",
+    "whatsapp_quote": "Get a WhatsApp Quote",
+    "professional_service": "Professional Service",
+    "reliable_prefix": "Reliable",
+    "reliable_suffix": "for better curb appeal.",
+    "intro": "Whether your property needs routine care, seasonal improvement, or a cleaner finish before guests, tenants, customers, or buyers arrive, our team provides practical service with professional presentation.",
+    "quote_details": "Quote Details",
+    "benefits": { "label": "Benefits", "title": "Why property owners request this service.", "items": ["Improves curb appeal and property presentation", "Keeps outdoor areas clean, healthy, and easier to maintain", "Delivered by a dependable team founded in 2020", "Clear communication, practical recommendations, and quality workmanship"] },
+    "process": { "label": "Our Process", "title": "Simple, clear, and focused on results.", "steps": ["Free request review and quick scheduling", "On-site assessment of lawn, landscape, beds, or property needs", "Clear estimate with recommended scope and timing", "Professional service completed with attention to detail", "Final walkthrough and maintenance recommendations"] },
+    "gallery": { "label": "Gallery", "title": "Project-focused visual quality." },
+    "local": { "label": "Local Service", "title": "Serving local properties in the 23185 service area.", "text": "Request {{service}} for residential homes, rental properties, small businesses, and commercial sites in the 23185 service area." },
+    "faqs": [{ "question": "Do you provide {{service}} for homes and businesses?", "answer": "Yes. We help residential and commercial clients with scheduled services, one-time projects, and seasonal maintenance needs." }, { "question": "How can I request a quote?", "answer": "Call, send a WhatsApp message, or complete the quote form. We will review your needs and recommend the next step." }],
+    "final": { "title": "Need {{service}}? Request your quote today.", "form": "Send Quote Form" }
+  },
+  "home_page": {
+"seo_title": "Tree & Lawn Experts",
+    "seo_description": "Landscaping, lawn care, tree services, decks, patios, yard cleanup, mulching, rock installation, trimming, and edging for homes and businesses in 23185.",
+    "common": { "view_services": "View Services" },
+    "stats": { "founded": "Founded", "days": "Monday to Saturday", "payments": "Cash & Zelle" },
+    "hero": {
+      "image_alt": "Premium landscape design and lawn care",
+      "badge": "Landscaping & Outdoor Services Since 2020",
+      "title": "Your Yard, Our Priority",
+      "subtitle": "Professional tree services, decks, patios, lawn care, landscape maintenance, cleanup, mulching, rocks, trimming, edging, and more.",
+      "call": "Call",
+      "whatsapp": "Request Quote on WhatsApp",
+      "slides": [
+        {
+          "badge": "Landscaping & Outdoor Services Since 2020",
+          "title": "#1 Landscaping & Lawn Care Specialists",
+          "subtitle": "Professional tree services, decks, patios, lawn care, landscape maintenance, cleanup, mulching, rocks, trimming, edging, and more."
+        },
+        {
+          "badge": "Decks, Patios & Outdoor Living",
+          "title": "Build a Better Outdoor Space",
+          "subtitle": "Upgrade your exterior with practical deck, patio, and landscape improvements designed for daily use and lasting curb appeal."
+        },
+        {
+          "badge": "Lawn Care, Cleanup & Maintenance",
+          "title": "Clean, Sharp, Reliable Results",
+          "subtitle": "From mowing and edging to trimming, cleanup, mulch, and rock installation, we keep your property looking professionally maintained."
+        }
+      ]
+    },
+    "hours": {
+      "open": "Open Now",
+      "closed": "Closed Now",
+      "schedule": "Monday - Saturday | 7:00 AM - 6:00 PM"
+    },
+    "estimate": {
+      "label": "Quick Estimate",
+      "title": "Need outdoor service this week?",
+      "text": "Send a message with your service type, property location, and preferred schedule. We will respond with the next step."
+    },
+    "about": {
+      "label": "About Company",
+      "title": "Outdoor spaces maintained with pride and precision.",
+      "text": "{{business}} provides landscaping and outdoor services for residential and commercial clients in the 23185 service area. The goal is simple: make your property look clean, healthy, and professionally cared for from the first visit."
+    },
+    "solutions": {
+      "label": "Outdoor Services",
+      "title": "Everything your exterior needs in one reliable place.",
+      "subtitle": "Request a quote by phone, WhatsApp, or the website form and get clear next steps for your property.",
+      "cards": {
+        "tree": { "title": "Tree Services", "description": "Tree service support to help keep outdoor areas safer, cleaner, and better maintained." },
+        "decks": { "title": "Decks and Patios", "description": "Outdoor living improvements for decks, patios, and spaces made for daily use." },
+        "lawn": { "title": "Lawn & Landscape Care", "description": "Lawn mowing, edging, trimming, cleanup, mulching, rocks, and maintenance for curb appeal." }
+      }
+    },
+    "featured": { "label": "Featured Services", "title": "Focused service for cleaner, safer, better looking outdoor spaces." },
+    "why": {
+      "label": "Why Choose Us",
+      "title": "A reliable local team focused on curb appeal and long-term care.",
+      "items": [
+        "Professional landscaping and outdoor services with clean finishing details",
+        "Fast quote requests by phone, WhatsApp, or website form",
+        "Residential and commercial services adapted to each property",
+        "Dependable scheduling Monday through Saturday"
+      ]
+    },
+    "clients": {
+      "label": "Who We Help",
+      "title": "Outdoor care for homes, rentals, and commercial properties.",
+      "subtitle": "We serve clients who want a cleaner, safer, better maintained property without stress or complicated scheduling.",
+      "items": [
+        "Homeowners who want a clean, healthy lawn",
+        "Busy families that need reliable outdoor maintenance",
+        "Property managers and rental homes",
+        "Commercial properties that need consistent curb appeal",
+        "New homeowners improving their outdoor space",
+        "Anyone who needs cleaner, safer, better looking outdoor spaces"
+      ]
+    },
+    "projects": { "label": "Before & After Projects", "title": "Visible improvements for outdoor spaces.", "image_alt": "Landscaping project result", "result": "Project Result" },
+    "areas": { "label": "Service Areas", "title": "Landscaping and outdoor services in the 23185 service area.", "text": "We serve residential and commercial clients in the 23185 service area. Contact us with your location and the service you need to confirm availability and request an estimate.", "cta": "Confirm Service Area" },
+    "testimonials": { "label": "Testimonials", "title": "Built to earn trust from the first visit.", "subtitle": "Discover why clients trust us for professional, reliable outdoor property care.", "client": "Local Client", "items": ["Clean work, reliable scheduling, and the lawn looked excellent.", "They helped refresh our mulch beds and improved the whole front yard.", "Professional service and easy communication from quote to finish."] },
+    "faq": { "label": "FAQ", "title": "Questions before requesting a quote?", "items": [{ "question": "Do you provide free quotes?", "answer": "Yes. Call, send a WhatsApp message, or submit the form and we will review your project or maintenance needs." }, { "question": "Do you handle recurring lawn maintenance?", "answer": "Yes. We can help with regular lawn mowing, lawn maintenance, landscape maintenance, trimming, edging, and scheduled service needs." }, { "question": "What payment methods do you accept?", "answer": "We accept Cash and Zelle." }] },
+    "final": { "title": "Ready to improve your outdoor space?", "call": "Call Now" }
+  },
+  "about": {
+    "title": "About Isaías Velásquez Landscaping Services",
+    "seo_title": "About Our Company",
+    "seo_description": "Learn about Isaías Velásquez Landscaping Services, founded in 2020. Professional tree care, lawn care, decks, patios, and cleanup for homes and businesses.",
+    "description": "Founded in 2020, Isaías Velásquez Landscaping Services helps residential and commercial clients maintain clean, healthy, and attractive outdoor spaces with landscaping and outdoor services.",
+    "mission": {
+      "title": "Our Mission",
+      "text": "To provide reliable landscaping and outdoor services that improve curb appeal and make property maintenance easier for every client."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "text": "To become a trusted local service provider known for quality, professionalism, and consistent lawn care."
+    },
+    "values": {
+      "title": "Core Values",
+      "items": [
+        {
+          "name": "Clarity",
+          "description": "Make your process easy to understand from the first visit."
+        },
+        {
+          "name": "Consistency",
+          "description": "Show that the same level of quality applies across every service."
+        },
+        {
+          "name": "Trust",
+          "description": "Use real proof, precise promises, and honest timelines."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to common questions before requesting a lawn mowing or mulching quote.",
+    "items": [
+      {
+        "question": "Do you provide residential and commercial services?",
+        "answer": "Yes. We provide tree services, decks and patios, lawn care, landscape maintenance, cleanup, mulching, rock installation, bush trimming, edging, and more for homes and businesses."
+      },
+      {
+        "question": "How do I request a quote?",
+        "answer": "Call, send a WhatsApp message, or complete the contact form with your service need and location."
+      },
+      {
+        "question": "What are your business hours?",
+        "answer": "We are available Monday through Saturday from 7:00 AM to 6:00 PM."
+      },
+      {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept Cash and Zelle."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Request a quote for landscaping or outdoor services.",
+    "info": {
+      "title": "Contact Information",
+      "location_title": "Service Area",
+      "contact_title": "Phone",
+      "email_title": "Email",
+      "hours_title": "Business Hours",
+      "map_placeholder_title": "Local Service Areas",
+      "map_placeholder_text": "Contact us with your location to confirm availability for landscaping and outdoor services.",
+      "location": "23185 service area",
+      "phone": "(804) 854-6205",
+      "email": "velasquezisaias038@gmail.com",
+      "hours": "Monday - Saturday | 7:00 AM - 6:00 PM",
+      "languages": "English, Spanish"
+    },
+    "form": {
+      "heading": "Request a Free Quote",
+      "name": "Full Name",
+      "name_placeholder": "Enter your full name",
+      "email": "Email Address",
+      "email_placeholder": "Enter your email address",
+      "phone": "Phone Number",
+      "phone_placeholder": "Enter your phone number",
+      "service": "Service",
+      "service_placeholder": "Select a service",
+      "service_info": "General Quote Request",
+      "service_other": "Other",
+      "message": "Message",
+      "message_placeholder": "Tell us about your lawn mowing or mulching need",
+      "submit": "Request Quote",
+      "sending": "Opening email draft...",
+      "success": "Your email draft was prepared successfully.",
+      "error": "We could not open your email draft. Please try again."
+    }
+  },
+  "gallery": {
+    "title": "Gallery",
+    "seo_title": "Our Work",
+    "seo_description": "Browse our project gallery featuring professional landscaping, lawn care, tree services, decks, patios, and yard transformations for homes and businesses.",
+    "subtitle": "Explore visual examples of clean, professional outdoor property care.",
+    "categories": {
+      "all": "All",
+      "category1": "Featured",
+      "category2": "Process",
+      "category3": "Results"
+    },
+    "no_items": "No items match this category yet.",
+    "items": [
+      {
+        "id": 1,
+        "title": "Lawn & Trees",
+        "category": "category1",
+        "description": "Professional lawn maintenance and tree care for residential properties."
+      },
+      {
+        "id": 2,
+        "title": "Work in Progress",
+        "category": "category2",
+        "description": "Our team during a landscaping and yard cleanup workday."
+      },
+      {
+        "id": 3,
+        "title": "Final Result",
+        "category": "category3",
+        "description": "Complete outdoor space transformation with well-maintained lawn."
+      },
+      {
+        "id": 4,
+        "title": "Featured Project",
+        "category": "category1",
+        "description": "Garden bed and landscaping with ground cover and ornamental plants."
+      },
+      {
+        "id": 5,
+        "title": "Gardening Work",
+        "category": "category2",
+        "description": "Bush trimming and green area maintenance."
+      },
+      {
+        "id": 6,
+        "title": "Renewed Garden",
+        "category": "category3",
+        "description": "Result of a complete garden cleanup and maintenance service."
+      }
+    ]
+  },
+  "cookies": {
+    "title": "Cookie Policy",
+    "seo_title": "Cookie Policy",
+    "seo_description": "Learn how Isaías Velásquez Landscaping Services uses cookies to enhance your browsing experience and remember your preferences on our website.",
+    "intro": "This page explains how {{name}} uses cookies and similar technologies to enhance your experience on the site.",
+    "sections": {
+      "what": {
+        "title": "What Are Cookies",
+        "body": "Cookies are small text files stored on your device when you visit a website. They are used to remember your preferences, improve navigation, and analyze site traffic."
+      },
+      "how": {
+        "title": "How We Use Cookies",
+        "body": "We use essential cookies for basic site functionality, performance cookies to understand how visitors interact with content, and functionality cookies to remember your preferences."
+      },
+      "control": {
+        "title": "Cookie Control",
+        "body": "You can manage or disable cookies through your browser settings. Please note that some site features may be affected if you disable certain cookies."
+      },
+      "contact": {
+        "title": "Contact",
+        "body": "If you have questions about this cookie policy, you can email us at {{email}}."
+      }
+    }
+  },
+  "accessibility": {
+    "title": "Accessibility Statement",
+    "seo_title": "Accessibility",
+    "seo_description": "Isaías Velásquez Landscaping Services is committed to web accessibility for all users. Learn about our accessibility features and standards.",
+    "intro": "{{name}} is committed to ensuring digital accessibility for all people, regardless of their abilities.",
+    "sections": {
+      "standards": {
+        "title": "Standards",
+        "body": "We strive to comply with the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA, ensuring our site is perceivable, operable, understandable, and robust."
+      },
+      "features": {
+        "title": "Features",
+        "body": "Clear and consistent navigation, alternative text for images, adequate contrast, screen reader compatibility, and keyboard navigation support."
+      },
+      "limitations": {
+        "title": "Limitations",
+        "body": "We continuously work to improve accessibility. If you encounter any barriers, please contact us for assistance."
+      },
+      "contact": {
+        "title": "Contact",
+        "body": "To report accessibility issues or request assistance, email us at {{email}}."
+      }
+    }
+  },
+  "sitemap": {
+    "title": "Sitemap",
+    "seo_title": "Sitemap",
+    "seo_description": "Explore all pages and services on the Isaías Velásquez Landscaping Services website. Easy navigation to landscaping, tree care, lawn services, and more.",
+    "intro": "Explore all available sections on the {{name}} website.",
+    "pages": "Pages",
+    "services": "Services",
+    "legal": "Legal"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "seo_title": "Privacy Policy",
+    "seo_description": "Read the privacy policy of Isaías Velásquez Landscaping Services. Learn how we collect, use, and protect your personal information when you visit our website.",
+    "intro": "This page explains how {{name}} may collect, use, and protect visitor information.",
+    "notice_title": "Privacy Notice:",
+    "notice_text": "This policy explains how we collect, use, and protect your information when you visit our website or request our landscaping services.",
+    "sections": {
+      "collection": {
+        "title": "Information We Collect",
+        "body": "Describe the contact details, enquiry data, analytics events, booking information, or media uploads you collect through your website and business workflows."
+      },
+      "usage": {
+        "title": "How We Use Information",
+        "body": "Explain how that information supports replies, quotations, scheduling, customer service, remarketing, billing, or operational follow-up."
+      },
+      "sharing": {
+        "title": "Third-Party Services",
+        "body": "List any external tools involved in hosting, analytics, CRM, payments, maps, advertising, or form delivery, and explain when data may be shared with them."
+      },
+      "contact": {
+        "title": "Questions About Privacy",
+        "body": "If visitors have questions about your privacy practices, direct them to {{email}} or your preferred compliance contact."
+      }
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "seo_title": "Terms of Service",
+    "seo_description": "Read the terms of service for Isaías Velásquez Landscaping Services. Understand the guidelines for using our website and requesting our landscaping services.",
+    "intro": "These terms describe the baseline rules for using the {{name}} website and requesting information about its services.",
+    "notice_title": "Terms Notice:",
+    "notice_text": "These terms describe the rules for using our website and requesting landscaping services from Isaías Velásquez Landscaping Services.",
+    "sections": {
+      "use": {
+        "title": "Use of This Website",
+        "body": "Explain what visitors can expect from the information published on the site and state that service details, availability, and scope may change as the business is updated."
+      },
+      "estimates": {
+        "title": "Quotes, Bookings, or Enquiries",
+        "body": "Clarify that submitted forms or calls do not create a binding agreement on their own, and explain when work, pricing, deposits, or approvals become official."
+      },
+      "liability": {
+        "title": "Limitations and Responsibility",
+        "body": "Use this section to set reasonable limits around website accuracy, third-party tools, availability, and any business-specific legal boundaries that apply to your services."
+      },
+      "contact": {
+        "title": "Questions About These Terms",
+        "body": "For questions about your business terms, direct visitors to {{email}} or the contact channel you use for formal enquiries."
+      }
+    }
+  }
+}

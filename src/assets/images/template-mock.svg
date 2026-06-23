@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Template Mock Image</title>
+  <desc id="desc">Neutral placeholder image for the landing page template.</desc>
+  <rect width="1600" height="900" fill="#f4f1e8" />
+  <rect x="64" y="64" width="1472" height="772" rx="32" fill="#fbfaf5" stroke="#d2c5ad" stroke-width="8" />
+  <g fill="none" stroke="#b29c73" stroke-width="8" opacity="0.9">
+    <path d="M208 624l232-232 152 152 248-288 248 248 128-128 168 168" />
+    <circle cx="484" cy="288" r="54" />
+  </g>
+  <g fill="#6e5d44" font-family="Georgia, serif" text-anchor="middle">
+    <text x="800" y="430" font-size="76" font-weight="700">Mock Image</text>
+    <text x="800" y="500" font-size="34">Replace with real brand photography before publishing.</text>
+  </g>
+</svg>
