@@ -1,0 +1,10 @@
+node_modules
+dist
+*.tsbuildinfo
+
+# macOS
+.DS_Store
+
+github/
+vite-output.txt
+vite-error.txt

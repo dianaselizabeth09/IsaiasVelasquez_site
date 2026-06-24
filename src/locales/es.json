@@ -1,0 +1,623 @@
+{
+  "common": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Sobre Nosotros",
+    "faq": "Preguntas Frecuentes",
+    "contact": "Contacto",
+    "gallery": "Galería",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "before": "Antes",
+    "after": "Después",
+    "slide": "Mostrar diapositiva {{number}}",
+    "play": "Reproducir",
+    "pause": "Pausar"
+  },
+  "header": {
+    "logo": "Logo de {{name}}",
+    "nav": {
+      "home": "Inicio",
+      "services": "Servicios",
+      "about": "Sobre Nosotros",
+      "contact": "Contacto",
+      "faq": "Preguntas Frecuentes",
+      "gallery": "Galería",
+      "service_areas": "Áreas de Servicio"
+    },
+    "cta": "Solicitar Información",
+    "nav_meta": {
+      "tree_care": "CUIDADO DE ÁRBOLES",
+      "decks_patios": "DECKS Y PATIOS",
+      "landscape_care": "CUIDADO DE PAISAJISMO",
+      "extra_services": "SERVICIOS EXTRA",
+      "lawn_care": "CUIDADO DE CÉSPED"
+    },
+    "change_language": "Cambiar idioma",
+    "language": {
+      "en": "EN",
+      "es": "ES"
+    }
+  },
+  "template": {
+    "placeholders": {
+      "business_name": "Nombre del Negocio",
+      "tagline": "Plantilla para Landing de Servicios",
+      "description": "Plantilla editable para negocios de servicios. Reemplaza el copy, los datos de contacto, las imágenes y los detalles de servicio antes de publicar."
+    }
+  },
+  "footer": {
+    "tagline": "Tu espacio exterior, nuestra prioridad.",
+    "about": "Servicios profesionales de paisajismo y exteriores para clientes residenciales y comerciales.",
+    "quick_links": {
+      "title": "Enlaces Rápidos",
+      "home": "Inicio",
+      "services": "Servicios",
+      "about": "Sobre Nosotros",
+      "contact": "Contacto",
+      "faq": "Preguntas Frecuentes"
+    },
+    "services": {
+      "title": "Bloques de Servicio",
+      "service1": "Servicio Principal",
+      "service2": "Servicio Secundario",
+      "service3": "Servicio de Soporte"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos del Servicio",
+      "cookies": "Cookies",
+      "accessibility": "Accesibilidad",
+      "sitemap": "Mapa del Sitio"
+    },
+    "contact": {
+      "title": "Contacto",
+      "phone": "(000) 000-0000",
+      "email": "hello@example.com"
+    },
+    "crescendo": "Impulsado por Crescendo Marketing",
+    "copyright": "© {{year}} Nombre del Negocio. Todos los derechos reservados.",
+    "copyright_rights": "Todos los derechos reservados.",
+    "about_description": "Servicios de árboles, decks, patios, césped, mantenimiento, limpieza, acolchado, piedras, poda, bordes y más.",
+    "marketing_by": "Marketing por",
+    "zip": "23185",
+    "main_services": "Servicios Principales",
+    "more_services": "Más Servicios",
+    "company": "Compañía",
+    "hours_label": "Horario:",
+    "payment_label": "Pago:",
+    "area_label": "Área:"
+  },
+  "floating": {
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "google": "Perfil de Google Business",
+    "whatsapp": "WhatsApp",
+    "scroll_top": "Volver arriba",
+    "call": "Llamar",
+    "cookie_title": "Configuración de Cookies",
+    "cookie_text": "Usamos cookies para mejorar tu experiencia de navegación y recordar tus preferencias.",
+    "cookie_accept": "Aceptar Todas",
+    "cookie_reject": "Rechazar Todas",
+    "cookie_essential": "Cookies Esenciales",
+    "cookie_essential_desc": "Necesarias para el funcionamiento del sitio.",
+    "cookie_preference": "Cookies de Preferencias",
+    "cookie_preference_desc": "Recuerdan tus ajustes y preferencias.",
+    "cookie_analytics": "Cookies de Análisis",
+    "cookie_analytics_desc": "Nos ayudan a entender el comportamiento de los visitantes.",
+    "cookie_save": "Guardar Preferencias",
+    "access_title": "Herramientas de Accesibilidad",
+    "access_contrast": "Alto Contraste",
+    "access_grayscale": "Escala de Grises",
+    "access_underline": "Subrayar Enlaces",
+    "access_save": "Guardar Preferencias"
+  },
+  "home": {
+    "hero": {
+      "title": "Construye una landing de servicios lista para personalizar",
+      "subtitle": "Sustituye tu oferta real, pruebas, imágenes y datos de contacto sin rehacer la estructura, el SEO ni la base bilingüe.",
+      "cta": "Empezar con esta plantilla",
+      "badge": "Plantilla editable",
+      "greeting": "Starter para negocio de servicios",
+      "social_proof": {
+        "clients_count": "Bilingüe",
+        "clients_text": "con base visual y SEO incluidos"
+      },
+      "floating_cards": {
+        "rating": {
+          "label": "Bloques de servicio",
+          "value": "3 listos"
+        },
+        "experience": {
+          "label": "Idiomas",
+          "value": "EN + ES"
+        },
+        "projects": {
+          "label": "SEO base",
+          "value": "Incluido"
+        }
+      }
+    },
+    "services": {
+      "title": "Bloques de Servicio",
+      "subtitle": "Cada servicio tiene su propio bloque de contenido para explicar alcance, resultado y siguiente paso sin crear páginas extra.",
+      "cta": "Ver bloques de servicio"
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "subtitle": "Responde aquí las preguntas que suelen aparecer antes de que un prospecto te contacte.",
+      "cta": "Ver todas las preguntas"
+    },
+    "contact": {
+      "title": "Contacto",
+      "subtitle": "Mantén un único punto de conversión con teléfono, correo, horario y un formulario breve.",
+      "cta": "Contactar ahora"
+    },
+    "gallery_preview": {
+      "title": "Mockup Visual",
+      "subtitle": "La plantilla usa un solo asset mock neutro para que la ausencia de fotos reales sea evidente durante revisión.",
+      "cta": "Ver layout de galería"
+    }
+  },
+  "services": {
+    "title": "Servicios de Paisajismo y Exteriores",
+    "subtitle": "Servicios de árboles, decks, patios, césped, mantenimiento, limpieza, acolchado, piedras, poda, bordes y más en el área 23185.",
+    "cta": "Solicitar detalles",
+    "tree-services": {
+"title": "Mejores Servicios de Árboles",
+      "description": "Apoyo en servicios de árboles para mantener áreas exteriores más seguras, limpias y cuidadas."
+    },
+    "decks-and-patios": {
+"title": "Mejores Decks y Patios",
+      "description": "Servicios para decks y patios que ayudan a mejorar espacios exteriores y la apariencia de la propiedad."
+    },
+    "landscape-maintenance": {
+      "title": "Mejor Mantenimiento de Paisajismo",
+      "description": "Mantenimiento continuo para conservar áreas exteriores, plantas, bordes y camas con una apariencia limpia."
+    },
+    "lawn-maintenance": {
+      "title": "Mejor Mantenimiento de Césped",
+      "description": "Mantenimiento confiable para césped saludable, limpio y cuidado profesionalmente."
+    },
+    "lawn-mowing": {
+      "title": "Mejor Corte de Césped",
+      "description": "Corte regular de césped para mantener áreas verdes limpias, parejas y con una apariencia profesional."
+    },
+    "yard-cleanup": {
+      "title": "Mejor Limpieza de Patio",
+      "description": "Servicios de limpieza para retirar residuos, mejorar la presentación y hacer el exterior más fácil de disfrutar."
+    },
+    "mulching-installation": {
+      "title": "Mejor Instalación de Acolchado",
+      "description": "Instalación de acolchado fresco para mejorar la apariencia, proteger el suelo y dar un acabado limpio al exterior."
+    },
+    "and-more": {
+      "title": "Y Más",
+      "description": "Servicios exteriores adicionales según las necesidades de la propiedad, el horario y el alcance del proyecto."
+    },
+    "rock-installation": {
+      "title": "Mejor Instalación de Piedras",
+      "description": "Instalación de piedra decorativa para áreas exteriores limpias, duraderas y de bajo mantenimiento."
+    },
+    "bush-trimming": {
+      "title": "Mejor Poda de Arbustos",
+      "description": "Poda de arbustos para dar forma, controlar crecimiento y mejorar la apariencia exterior."
+    },
+    "lawn-edging": {
+      "title": "Mejores Bordes de Césped",
+      "description": "Bordes limpios en el césped junto a aceras, entradas, camas y patios."
+    },
+    "service1": {
+      "title": "Servicio Principal",
+      "description": "Describe aquí el servicio estrella, el resultado que entrega, para quién es y qué hace diferente a tu proceso. Mantén el beneficio claro y concreto."
+    },
+    "service2": {
+      "title": "Servicio Secundario",
+      "description": "Utiliza este segundo bloque para una oferta complementaria, una variación especializada o un servicio de alto valor que apoye el núcleo de tu negocio."
+    },
+    "service3": {
+      "title": "Servicio de Soporte",
+      "description": "Este bloque funciona bien para mantenimiento, seguimiento, consultoría o cualquier servicio de apoyo que ayude a convertir visitantes indecisos."
+    },
+    "header": {
+      "title": "Bloques de Servicio",
+      "subtitle": "Bloques estructurados para tus servicios reales, con espacio para imagen, copy y CTA."
+    },
+    "cards": [
+      {
+        "title": "Servicio Principal",
+        "description": "Resume aquí la oferta principal y el resultado que puede esperar el cliente.",
+        "cta": "Solicitar cotización"
+      },
+      {
+        "title": "Servicio Secundario",
+        "description": "Usa esta tarjeta para presentar una oferta especializada o de apoyo.",
+        "cta": "Solicitar cotización"
+      },
+      {
+        "title": "Servicio de Soporte",
+        "description": "Describe el servicio que elimina objeciones o extiende el valor del cliente.",
+        "cta": "Solicitar cotización"
+      }
+    ]
+  },
+  "service_groups": {
+    "Tree Services": "Servicios de Árboles",
+    "Outdoor Living": "Espacios Exteriores",
+    "Lawn Care": "Cuidado de Césped",
+    "Landscape Services": "Servicios de Paisajismo",
+    "Cleanup & More": "Limpieza y Más"
+  },
+  "services_page": {
+    "seo_title": "Nuestros Servicios",
+    "seo_description": "Servicios profesionales de árboles, decks, patios, césped, limpieza, acolchado, instalación de piedras, poda y bordes para hogares y negocios en 23185.",
+    "badge": "Cuidado Completo de Exteriores",
+    "title": "Mejores Servicios de Paisajismo y Exteriores",
+    "subtitle": "Elige el servicio que necesitas y abre su página dedicada para ver detalles, beneficios, proceso, preguntas frecuentes, galería y formulario de cotización.",
+    "call": "Llamar",
+    "whatsapp": "Cotización por WhatsApp",
+    "section_label": "Nuestros Servicios",
+    "section_title": "Servicios exteriores hermosos y prácticos para hogares y negocios.",
+    "section_description": "Isaías Velásquez Landscaping Services ayuda a clientes residenciales y comerciales con servicios de árboles, decks y patios, cuidado de césped, mantenimiento de paisajismo, limpieza de patio, acolchado, instalación de piedras, poda de arbustos, bordes y más.",
+    "view_service": "Ver Servicio",
+    "view_all": "Ver todos los servicios"
+  },
+  "services_detail": {
+    "seo_description": "Servicios confiables de paisajismo y exteriores para hogares y negocios. Cuidado de árboles, cuidado de césped, decks, patios y limpieza en el área 23185.",
+    "service_label": "Servicio",
+    "whatsapp_quote": "Solicitar Cotización por WhatsApp",
+    "professional_service": "Servicio Profesional",
+    "reliable_prefix": "Servicio confiable de",
+    "reliable_suffix": "para mejorar la apariencia exterior.",
+    "intro": "Ya sea que tu propiedad necesite cuidado regular, mejora de temporada o una presentación más limpia antes de visitas, inquilinos, clientes o compradores, nuestro equipo ofrece servicio práctico con presentación profesional.",
+    "quote_details": "Detalles de Cotización",
+    "benefits": { "label": "Beneficios", "title": "Por qué los propietarios solicitan este servicio.", "items": ["Mejora la apariencia y presentación de la propiedad", "Mantiene áreas exteriores limpias, saludables y fáciles de cuidar", "Servicio de un equipo confiable fundado en 2020", "Comunicación clara, recomendaciones prácticas y trabajo de calidad"] },
+    "process": { "label": "Nuestro Proceso", "title": "Simple, claro y enfocado en resultados.", "steps": ["Revisión gratuita de la solicitud y programación rápida", "Evaluación en sitio del césped, paisaje, camas o necesidades de la propiedad", "Estimado claro con alcance y tiempo recomendado", "Servicio profesional realizado con atención al detalle", "Revisión final y recomendaciones de mantenimiento"] },
+    "gallery": { "label": "Galería", "title": "Calidad visual enfocada en proyectos." },
+    "local": { "label": "Servicio Local", "title": "Atendiendo propiedades locales en el área 23185.", "text": "Solicita {{service}} para casas residenciales, propiedades en renta, pequeños negocios y sitios comerciales en el área 23185." },
+    "faqs": [{ "question": "¿Ofrecen {{service}} para casas y negocios?", "answer": "Sí. Ayudamos a clientes residenciales y comerciales con servicios programados, proyectos únicos y necesidades de mantenimiento de temporada." }, { "question": "¿Cómo puedo solicitar una cotización?", "answer": "Llama, envía un mensaje por WhatsApp o completa el formulario de cotización. Revisaremos tus necesidades y recomendaremos el siguiente paso." }],
+    "final": { "title": "¿Necesitas {{service}}? Solicita tu cotización hoy.", "form": "Enviar Formulario" }
+  },
+  "home_page": {
+"seo_title": "Jardineros Expertos",
+    "seo_description": "Servicios profesionales de paisajismo, cuidado de césped, árboles, decks, patios, limpieza, acolchado, piedras, poda y bordes para hogares y negocios en 23185.",
+    "common": { "view_services": "Ver Servicios" },
+    "stats": { "founded": "Fundado", "days": "Lunes a sábado", "payments": "Efectivo y Zelle" },
+    "hero": {
+      "image_alt": "Diseño de paisajismo y cuidado de césped profesional",
+      "badge": "Servicios de Paisajismo y Exteriores Desde 2020",
+      "title": "Tu Patio, Nuestra Prioridad",
+      "subtitle": "Servicios profesionales de árboles, decks, patios, césped, mantenimiento de paisajismo, limpieza, acolchado, piedras, poda, bordes y más.",
+      "call": "Llamar",
+      "whatsapp": "Solicitar Cotización por WhatsApp",
+      "slides": [
+        {
+          "badge": "Servicios de Paisajismo y Exteriores Desde 2020",
+          "title": "#1 Especialistas en Jardinería y Césped",
+          "subtitle": "Servicios profesionales de árboles, decks, patios, césped, mantenimiento de paisajismo, limpieza, acolchado, piedras, poda, bordes y más."
+        },
+        {
+          "badge": "Decks, Patios y Espacios Exteriores",
+          "title": "Construye un Mejor Espacio Exterior",
+          "subtitle": "Mejora tu exterior con decks, patios y trabajos de paisajismo prácticos, pensados para uso diario y buena presentación."
+        },
+        {
+          "badge": "Césped, Limpieza y Mantenimiento",
+          "title": "Resultados Limpios, Precisos y Confiables",
+          "subtitle": "Desde corte y bordes hasta poda, limpieza, acolchado e instalación de piedras, mantenemos tu propiedad con apariencia profesional."
+        }
+      ]
+    },
+    "hours": {
+      "open": "Abierto Ahora",
+      "closed": "Cerrado Ahora",
+      "schedule": "Lunes - Sábado | 7:00 AM - 6:00 PM"
+    },
+    "estimate": {
+      "label": "Cotización Rápida",
+      "title": "¿Necesitas servicio exterior esta semana?",
+      "text": "Envía un mensaje con el tipo de servicio, ubicación de la propiedad y horario preferido. Responderemos con el siguiente paso."
+    },
+  "related_services": {
+    "title": "Más Servicios de Paisajismo y Exteriores",
+    "subtitle": "Explora servicios relacionados diseñados para mantener tu propiedad limpia, verde y con mantenimiento profesional.",
+    "cta": "Solicitar este servicio"
+  },
+  "about": {
+      "label": "Sobre la Empresa",
+      "title": "Espacios exteriores mantenidos con orgullo y precisión.",
+      "text": "{{business}} ofrece servicios de paisajismo y exteriores para clientes residenciales y comerciales en el área 23185. La meta es simple: hacer que tu propiedad se vea limpia, saludable y cuidada profesionalmente desde la primera visita."
+    },
+    "solutions": {
+      "label": "Servicios Exteriores",
+      "title": "Todo lo que tu exterior necesita en un solo lugar confiable.",
+      "subtitle": "Solicita una cotización por teléfono, WhatsApp o el formulario web y recibe pasos claros para tu propiedad.",
+      "cards": {
+        "tree": { "title": "Servicios de Árboles", "description": "Apoyo en servicios de árboles para mantener áreas exteriores más seguras, limpias y cuidadas." },
+        "decks": { "title": "Decks y Patios", "description": "Mejoras para decks, patios y espacios exteriores hechos para el uso diario." },
+        "lawn": { "title": "Césped y Paisajismo", "description": "Corte, bordes, poda, limpieza, acolchado, piedras y mantenimiento para mejorar la apariencia exterior." }
+      }
+    },
+    "featured": { "label": "Servicios Destacados", "title": "Servicio enfocado en exteriores más limpios, seguros y atractivos." },
+    "why": {
+      "label": "Por Qué Elegirnos",
+      "title": "Un equipo local confiable enfocado en apariencia exterior y cuidado a largo plazo.",
+      "items": [
+        "Servicios profesionales de paisajismo y exteriores con acabados limpios",
+        "Cotizaciones rápidas por teléfono, WhatsApp o formulario web",
+        "Servicios residenciales y comerciales adaptados a cada propiedad",
+        "Programación confiable de lunes a sábado"
+      ]
+    },
+    "clients": {
+      "label": "A Quién Ayudamos",
+      "title": "Cuidado exterior para casas, rentas y propiedades comerciales.",
+      "subtitle": "Atendemos clientes que quieren una propiedad más limpia, segura y mejor mantenida sin estrés ni programación complicada.",
+      "items": [
+        "Propietarios que quieren un césped limpio y saludable",
+        "Familias ocupadas que necesitan mantenimiento exterior confiable",
+        "Administradores de propiedades y casas en renta",
+        "Propiedades comerciales que necesitan buena presentación",
+        "Nuevos propietarios mejorando su exterior",
+        "Cualquier persona que necesite exteriores más limpios, seguros y atractivos"
+      ]
+    },
+    "projects": { "label": "Proyectos Antes y Después", "title": "Mejoras visibles para espacios exteriores.", "image_alt": "Resultado de proyecto de paisajismo", "result": "Resultado del Proyecto" },
+    "areas": { "label": "Áreas de Servicio", "title": "Servicios de paisajismo y exteriores en el área 23185.", "text": "Atendemos clientes residenciales y comerciales en el área 23185. Contáctanos con tu ubicación y el servicio que necesitas para confirmar disponibilidad y solicitar una cotización.", "cta": "Confirmar Área de Servicio" },
+    "testimonials": { "label": "Testimonios", "title": "Construido para ganar confianza desde la primera visita.", "subtitle": "Descubre por qué los clientes confían en nosotros para el cuidado de sus espacios exteriores.", "client": "Cliente Local", "items": ["Trabajo limpio, programación confiable y el césped quedó excelente.", "Ayudaron a renovar nuestras camas de acolchado y mejoraron todo el frente.", "Servicio profesional y comunicación fácil desde la cotización hasta el final."] },
+    "faq": { "label": "Preguntas Frecuentes", "title": "¿Preguntas antes de solicitar una cotización?", "items": [{ "question": "¿Ofrecen cotizaciones gratis?", "answer": "Sí. Llama, envía un mensaje por WhatsApp o completa el formulario y revisaremos tu proyecto o necesidad de mantenimiento." }, { "question": "¿Manejan mantenimiento recurrente de césped?", "answer": "Sí. Podemos ayudar con corte regular, mantenimiento de césped, mantenimiento de paisajismo, poda, bordes y servicios programados." }, { "question": "¿Qué métodos de pago aceptan?", "answer": "Aceptamos efectivo y Zelle." }] },
+    "final": { "title": "¿Listo para mejorar tu espacio exterior?", "call": "Llamar Ahora" }
+  },
+  "about": {
+    "title": "Sobre Isaías Velásquez Landscaping Services",
+    "seo_title": "Nuestra Empresa",
+    "seo_description": "Conoce a Isaías Velásquez Landscaping Services, fundado en 2020. Ofrecemos servicios de árboles, césped, decks, patios y limpieza para hogares y negocios.",
+    "description": "Fundado en 2020, Isaías Velásquez Landscaping Services ayuda a clientes residenciales y comerciales a mantener exteriores limpios y atractivos con servicios de paisajismo y exteriores.",
+    "mission": {
+      "title": "Nuestra Misión",
+      "text": "Brindar servicios confiables de paisajismo y exteriores que mejoren la apariencia exterior y faciliten el mantenimiento de cada propiedad."
+    },
+    "vision": {
+      "title": "Nuestra Visión",
+      "text": "Ser un proveedor local de confianza reconocido por calidad, profesionalismo y consistencia en el cuidado del césped."
+    },
+    "values": {
+      "title": "Valores Clave",
+      "items": [
+        {
+          "name": "Claridad",
+          "description": "Haz que tu proceso sea fácil de entender desde la primera visita."
+        },
+        {
+          "name": "Consistencia",
+          "description": "Demuestra que el mismo nivel de calidad aplica en cada servicio."
+        },
+        {
+          "name": "Confianza",
+          "description": "Apóyate en pruebas reales, promesas precisas y tiempos honestos."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Respuestas a preguntas comunes antes de solicitar una cotización de corte de césped o acolchado.",
+    "items": [
+      {
+        "question": "¿Ofrecen servicios para casas y negocios?",
+        "answer": "Sí. Ofrecemos servicios de árboles, decks, patios, césped, mantenimiento, limpieza, acolchado, piedras, poda, bordes y más para clientes residenciales y comerciales."
+      },
+      {
+        "question": "¿Cómo solicito una cotización?",
+        "answer": "Llama, envía un mensaje por WhatsApp o completa el formulario con el servicio que necesitas y tu ubicación."
+      },
+      {
+        "question": "¿Cuál es el horario de atención?",
+        "answer": "Atendemos de lunes a sábado de 7:00 AM a 6:00 PM."
+      },
+      {
+        "question": "¿Qué métodos de pago aceptan?",
+        "answer": "Aceptamos efectivo y Zelle."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Solicita una cotización para corte de césped o acolchado.",
+    "info": {
+      "title": "Información de Contacto",
+      "location_title": "Zona de Servicio",
+      "contact_title": "Teléfono",
+      "email_title": "Correo Electrónico",
+      "hours_title": "Horario de Atención",
+      "map_placeholder_title": "Área de Servicio",
+      "map_placeholder_text": "Contáctanos con tu ubicación para confirmar disponibilidad de servicios de paisajismo y exteriores.",
+      "payment": "Efectivo y Zelle",
+      "location": "Área de servicio 23185",
+      "phone": "(804) 854-6205",
+      "email": "velasquezisaias038@gmail.com",
+      "hours": "Lunes - Sábado | 7:00 AM - 6:00 PM",
+      "languages": "Inglés, Español"
+    },
+    "form": {
+      "heading": "Solicita una Cotización Gratis",
+      "name": "Nombre Completo",
+      "name_placeholder": "Ingresa tu nombre completo",
+      "email": "Correo Electrónico",
+      "email_placeholder": "Ingresa tu correo electrónico",
+      "phone": "Teléfono",
+      "phone_placeholder": "Ingresa tu número de teléfono",
+      "service": "Servicio",
+      "service_placeholder": "Selecciona un servicio",
+      "service_info": "Consulta General",
+      "service_other": "Otro",
+      "message": "Mensaje",
+      "message_placeholder": "Cuéntanos qué necesitas",
+      "submit": "Solicitar Cotización",
+      "sending": "Abriendo borrador de correo...",
+      "success": "El borrador de correo se preparó correctamente.",
+      "error": "No se pudo abrir el borrador de correo. Intenta nuevamente."
+    }
+  },
+  "gallery": {
+    "title": "Galería",
+    "seo_title": "Nuestro Trabajo",
+    "seo_description": "Explora nuestra galería de proyectos de paisajismo profesional, cuidado de césped, árboles, decks, patios y transformaciones para hogares y negocios.",
+    "subtitle": "Explora ejemplos visuales de servicios profesionales de exteriores.",
+    "categories": {
+      "all": "Todos",
+      "category1": "Destacados",
+      "category2": "Proceso",
+      "category3": "Resultados"
+    },
+    "no_items": "Aún no hay elementos para esta categoría.",
+    "items": [
+      {
+        "id": 1,
+        "title": "Césped y Árboles",
+        "category": "category1",
+        "description": "Mantenimiento profesional de césped y cuidado de árboles para propiedades residenciales."
+      },
+      {
+        "id": 2,
+        "title": "Trabajo en Proceso",
+        "category": "category2",
+        "description": "Nuestro equipo durante una jornada de paisajismo y limpieza de jardín."
+      },
+      {
+        "id": 3,
+        "title": "Resultado Final",
+        "category": "category3",
+        "description": "Transformación completa del espacio exterior con césped bien mantenido."
+      },
+      {
+        "id": 4,
+        "title": "Proyecto Destacado",
+        "category": "category1",
+        "description": "Jardinera y paisajismo con cobertura vegetal y plantas ornamentales."
+      },
+      {
+        "id": 5,
+        "title": "Labores de Jardinería",
+        "category": "category2",
+        "description": "Poda de arbustos y mantenimiento de áreas verdes."
+      },
+      {
+        "id": 6,
+        "title": "Jardín Renovado",
+        "category": "category3",
+        "description": "Resultado de un servicio completo de limpieza y mantenimiento de jardín."
+      }
+    ]
+  },
+  "cookies": {
+    "title": "Política de Cookies",
+    "seo_title": "Política de Cookies",
+    "seo_description": "Conoce cómo Isaías Velásquez Landscaping Services utiliza cookies para mejorar tu experiencia de navegación y recordar tus preferencias en nuestro sitio web.",
+    "intro": "Esta página explica cómo {{name}} utiliza cookies y tecnologías similares para mejorar tu experiencia en el sitio.",
+    "sections": {
+      "what": {
+        "title": "Qué Son las Cookies",
+        "body": "Las cookies son pequeños archivos de texto que se almacenan en tu dispositivo cuando visitas un sitio web. Se usan para recordar tus preferencias, mejorar la navegación y analizar el tráfico del sitio."
+      },
+      "how": {
+        "title": "Cómo Usamos las Cookies",
+        "body": "Usamos cookies esenciales para el funcionamiento básico del sitio, cookies de rendimiento para entender cómo los visitantes interactúan con el contenido y cookies de funcionalidad para recordar tus preferencias."
+      },
+      "control": {
+        "title": "Control de Cookies",
+        "body": "Puedes gestionar o desactivar las cookies desde la configuración de tu navegador. Ten en cuenta que algunas funciones del sitio podrían verse afectadas si desactivas ciertas cookies."
+      },
+      "contact": {
+        "title": "Contacto",
+        "body": "Si tienes preguntas sobre esta política de cookies, puedes escribirnos a {{email}}."
+      }
+    }
+  },
+  "accessibility": {
+    "title": "Declaración de Accesibilidad",
+    "seo_title": "Accesibilidad",
+    "seo_description": "Isaías Velásquez Landscaping Services está comprometido con la accesibilidad web. Conoce las funciones y estándares disponibles para todos los usuarios.",
+    "intro": "{{name}} se compromete a garantizar la accesibilidad digital para todas las personas, independientemente de sus capacidades.",
+    "sections": {
+      "standards": {
+        "title": "Estándares",
+        "body": "Trabajamos para cumplir con las Pautas de Accesibilidad al Contenido Web (WCAG) 2.1 nivel AA, asegurando que nuestro sitio sea perceptible, operable, comprensible y robusto."
+      },
+      "features": {
+        "title": "Funcionalidades",
+        "body": "Navegación clara y consistente, texto alternativo en imágenes, contraste adecuado, compatibilidad con lectores de pantalla y soporte para navegación por teclado."
+      },
+      "limitations": {
+        "title": "Limitaciones",
+        "body": "Trabajamos continuamente para mejorar la accesibilidad. Si encuentras alguna barrera, por favor contáctanos para asistirte."
+      },
+      "contact": {
+        "title": "Contacto",
+        "body": "Para reportar problemas de accesibilidad o solicitar asistencia, escríbenos a {{email}}."
+      }
+    }
+  },
+  "sitemap": {
+    "title": "Mapa del Sitio",
+    "seo_title": "Mapa del Sitio",
+    "seo_description": "Explora todas las páginas y servicios en el sitio web de Isaías Velásquez Landscaping Services. Navegación fácil a paisajismo, cuidado de árboles y más.",
+    "intro": "Explora todas las secciones disponibles en el sitio web de {{name}}.",
+    "pages": "Páginas",
+    "services": "Servicios",
+    "legal": "Legal"
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "seo_title": "Privacidad",
+    "seo_description": "Lee la política de privacidad de Isaías Velásquez Landscaping Services. Conoce cómo recopilamos, usamos y protegemos tu información personal.",
+    "intro": "Esta página explica cómo {{name}} puede recopilar, usar y proteger la información de sus visitantes.",
+    "notice_title": "Aviso de Privacidad:",
+    "notice_text": "Esta política explica cómo recopilamos, usamos y protegemos tu información cuando visitas nuestro sitio web o solicitas nuestros servicios de jardinería.",
+    "sections": {
+      "collection": {
+        "title": "Información que Recopilamos",
+        "body": "Describe aquí los datos de contacto, formularios, eventos analíticos, información de reservas o archivos que recopilas a través del sitio y de tus procesos comerciales."
+      },
+      "usage": {
+        "title": "Cómo Usamos la Información",
+        "body": "Explica cómo esa información se utiliza para responder consultas, preparar cotizaciones, programar servicios, dar soporte, hacer seguimiento o gestionar operaciones."
+      },
+      "sharing": {
+        "title": "Servicios de Terceros",
+        "body": "Enumera las herramientas externas que intervienen en hosting, analítica, CRM, pagos, mapas, publicidad o formularios y explica cuándo los datos pueden compartirse con ellas."
+      },
+      "contact": {
+        "title": "Dudas sobre Privacidad",
+        "body": "Si un visitante tiene preguntas sobre tus prácticas de privacidad, indícale que puede escribir a {{email}} o al canal que uses para cumplimiento o soporte."
+      }
+    }
+  },
+  "terms": {
+    "title": "Términos del Servicio",
+    "seo_title": "Términos",
+    "seo_description": "Lee los términos de servicio de Isaías Velásquez Landscaping Services. Conoce las pautas para usar nuestro sitio web y solicitar nuestros servicios.",
+    "intro": "Estos términos describen las reglas base para usar el sitio de {{name}} y solicitar información sobre sus servicios.",
+    "notice_title": "Aviso de Términos:",
+    "notice_text": "Estos términos describen las reglas para usar nuestro sitio web y solicitar servicios de jardinería de Isaías Velásquez Landscaping Services.",
+    "sections": {
+      "use": {
+        "title": "Uso del Sitio Web",
+        "body": "Explica qué puede esperar el visitante del contenido publicado y aclara que los detalles del servicio, disponibilidad y alcance pueden cambiar al actualizar el negocio."
+      },
+      "estimates": {
+        "title": "Cotizaciones, Reservas o Consultas",
+        "body": "Aclara que un formulario enviado o una llamada no crean por sí solos un acuerdo vinculante y explica en qué momento se formalizan precio, depósito, agenda o aprobación."
+      },
+      "liability": {
+        "title": "Límites y Responsabilidad",
+        "body": "Usa esta sección para establecer límites razonables sobre exactitud del sitio, herramientas de terceros, disponibilidad y cualquier restricción legal específica de tu servicio."
+      },
+      "contact": {
+        "title": "Dudas sobre estos Términos",
+        "body": "Para preguntas sobre los términos de tu negocio, dirige al visitante a {{email}} o al canal formal que uses para consultas."
+      }
+    }
+  }
+}

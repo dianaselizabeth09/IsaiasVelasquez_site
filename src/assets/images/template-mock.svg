@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Template Mock Image</title>
+  <desc id="desc">Neutral placeholder image for the landing page template.</desc>
+  <rect width="1600" height="900" fill="#f4f1e8" />
+  <rect x="64" y="64" width="1472" height="772" rx="32" fill="#fbfaf5" stroke="#d2c5ad" stroke-width="8" />
+
+  <!-- Header bar -->
+  <rect x="64" y="64" width="1472" height="80" rx="32" fill="#fbfaf5" stroke="#d2c5ad" stroke-width="8" />
+  <rect x="64" y="96" width="1472" height="48" fill="#fbfaf5" />
+  <line x1="64" y1="144" x2="1536" y2="144" stroke="#d2c5ad" stroke-width="2" />
+
+  <!-- Logo -->
+  <g transform="translate(100, 84)">
+    <rect width="48" height="48" rx="10" fill="#123524"/>
+    <path d="M10 30.4c8.8-0.8 15.6-6.8 20-16.8 2.8 8.4 0.4 17.2-6.4 22-4.8 3.2-10 3.2-13.6-5.2z" fill="#7fc241"/>
+    <path d="M23.2 35.2c1.6-10 6.8-17.2 15.6-21.6-1.2 12-6 19.2-15.6 21.6z" fill="#d9f5c7"/>
+    <text x="24" y="40.6" text-anchor="middle" font-family="Arial" font-size="7.2" font-weight="800" fill="#fff">IV</text>
+  </g>
+
+  <!-- Header nav dots -->
+  <g fill="#d2c5ad">
+    <circle cx="600" cy="108" r="4" />
+    <circle cx="640" cy="108" r="4" />
+    <circle cx="680" cy="108" r="4" />
+    <circle cx="720" cy="108" r="4" />
+    <circle cx="760" cy="108" r="4" />
+  </g>
+
+  <!-- Content area - graph -->
+  <g fill="none" stroke="#b29c73" stroke-width="8" opacity="0.9">
+    <path d="M208 624l232-232 152 152 248-288 248 248 128-128 168 168" />
+    <circle cx="484" cy="288" r="54" />
+  </g>
+
+  <!-- Footer bar -->
+  <rect x="64" y="772" width="1472" height="64" rx="0" fill="#f4efe5" />
+  <rect x="64" y="804" width="1472" height="32" rx="0" fill="#f4efe5" />
+  <rect x="64" y="804" width="1472" height="32" rx="0" fill="#f4efe5" stroke="#d2c5ad" stroke-width="2" />
+  <line x1="64" y1="772" x2="1536" y2="772" stroke="#d2c5ad" stroke-width="2" />
+
+  <!-- Footer text placeholders -->
+  <g fill="#b29c73" font-family="Arial, sans-serif">
+    <rect x="120" y="790" width="160" height="8" rx="4" opacity="0.5" />
+    <rect x="120" y="808" width="200" height="6" rx="3" opacity="0.35" />
+    <rect x="120" y="820" width="140" height="6" rx="3" opacity="0.35" />
+    <rect x="420" y="790" width="100" height="8" rx="4" opacity="0.5" />
+    <rect x="420" y="808" width="130" height="6" rx="3" opacity="0.35" />
+    <rect x="620" y="790" width="100" height="8" rx="4" opacity="0.5" />
+    <rect x="620" y="808" width="130" height="6" rx="3" opacity="0.35" />
+    <rect x="1380" y="808" width="180" height="6" rx="3" opacity="0.35" />
+  </g>
+</svg>
