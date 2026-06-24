@@ -132,7 +132,7 @@ export default function HomePage() {
               <p className="mb-5 inline-flex rounded-full border border-white/16 bg-white/10 px-4 py-2 text-xs font-black uppercase tracking-[0.2em] text-white/90">
                 {currentSlide.badge}
               </p>
-              <h1 className="max-w-5xl text-5xl font-black leading-[1.05] text-white md:text-6xl lg:text-7xl">
+              <h1 className="max-w-5xl text-4xl font-black leading-[1.05] text-white md:text-5xl lg:text-6xl">
                 {currentSlide.title}
               </h1>
               <p className="mt-7 max-w-2xl text-lg leading-relaxed text-white/82 md:text-xl">
