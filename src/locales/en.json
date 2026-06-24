@@ -33,6 +33,7 @@
       "extra_services": "EXTRA SERVICES",
       "lawn_care": "LAWN CARE"
     },
+    "change_language": "Change language",
     "language": {
       "en": "EN",
       "es": "ES"

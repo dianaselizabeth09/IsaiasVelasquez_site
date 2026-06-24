@@ -43,7 +43,7 @@ function AppContent() {
 function App() {
   return (
     <HelmetProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/IsaiasVelasquez_site">
         <AppContent />
       </BrowserRouter>
     </HelmetProvider>
