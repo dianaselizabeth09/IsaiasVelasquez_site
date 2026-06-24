@@ -7,6 +7,7 @@ import img6 from "@/assets/images/gallery-6.jpeg";
 import img7 from "@/assets/images/gallery-7.jpeg";
 import img8 from "@/assets/images/gallery-8.jpeg";
 import img9 from "@/assets/images/gallery-9.jpeg";
+import logoSrc from "@/assets/images/logo.jpg";
 
 const LAWN_IMAGE = img1;
 const LANDSCAPE_IMAGE = img2;
@@ -24,20 +25,12 @@ const SERVICE_IMAGES = [
 
 type TranslateFn = (key: string) => string;
 
-const logoSvg = encodeURIComponent(`
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
-  <rect width="120" height="120" rx="28" fill="#123524"/>
-  <path d="M26 76c22-2 39-17 50-42 7 21 1 43-16 55-12 8-25 8-34-13z" fill="#7fc241"/>
-  <path d="M58 88c4-25 17-43 39-54-3 30-15 48-39 54z" fill="#d9f5c7"/>
-  <text x="60" y="104" text-anchor="middle" font-family="Arial" font-size="18" font-weight="800" fill="#fff">IV</text>
-</svg>`);
-
 export const BUSINESS_INFO = {
   NAME: "Isaías Velásquez Landscaping Services",
   TAGLINE: "Landscaping & Outdoor Services",
   DESCRIPTION:
     "Professional landscaping, lawn maintenance, tree services, decks, patios, yard cleanup, mulching, rock installation, bush trimming, and edging for residential and commercial clients in 23185.",
-  LOGO: `data:image/svg+xml,${logoSvg}`,
+  LOGO: logoSrc,
   HERO_IMAGE: LANDSCAPE_IMAGE,
   CAROUSEL_IMAGE: LAWN_IMAGE,
   URL: "https://isaiasvelasquezlandscaping.com",

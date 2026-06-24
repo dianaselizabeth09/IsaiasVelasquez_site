@@ -116,7 +116,7 @@ export function PhotoCarouselSection() {
                           ? "bg-(--color-primary) w-4"
                           : "bg-(--color-border-light) hover:bg-(--color-text-muted)"
                       }`}
-                      aria-label={`Go to slide ${index + 1}`}
+                      aria-label={t("common.slide", { number: index + 1 })}
                     />
                   ))}
                 </div>

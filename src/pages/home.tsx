@@ -194,7 +194,7 @@ export default function HomePage() {
                 className={`h-2.5 rounded-full transition-all ${
                   activeSlide === index ? "w-10 bg-white" : "w-2.5 bg-white/35 hover:bg-white/60"
                 }`}
-                aria-label={`Show slide ${index + 1}`}
+                aria-label={t("common.slide", { number: index + 1 })}
               />
             ))}
           </div>
@@ -340,19 +340,19 @@ export default function HomePage() {
           </div>
           <div className="grid gap-8 md:grid-cols-2">
             <div className="group relative h-96 overflow-hidden rounded-[2rem] shadow-xl">
-              <img src={beforeImg} alt="Before" className="h-full w-full object-cover" />
+              <img src={beforeImg} alt={t("common.before")} className="h-full w-full object-cover" />
               <div className="absolute inset-0 bg-linear-to-t from-black/70 via-transparent to-transparent" />
               <div className="absolute bottom-5 left-5">
-                <span className="inline-block rounded-full bg-red-500/90 px-4 py-1 text-xs font-black uppercase tracking-wider text-white mb-2">Before</span>
-                <p className="text-xl font-black text-white">Before</p>
+                <span className="inline-block rounded-full bg-red-500/90 px-4 py-1 text-xs font-black uppercase tracking-wider text-white mb-2">{t("common.before")}</span>
+                <p className="text-xl font-black text-white">{t("common.before")}</p>
               </div>
             </div>
             <div className="group relative h-96 overflow-hidden rounded-[2rem] shadow-xl">
-              <img src={afterImg} alt="After" className="h-full w-full object-cover" />
+              <img src={afterImg} alt={t("common.after")} className="h-full w-full object-cover" />
               <div className="absolute inset-0 bg-linear-to-t from-black/70 via-transparent to-transparent" />
               <div className="absolute bottom-5 left-5">
-                <span className="inline-block rounded-full bg-(--color-primary) px-4 py-1 text-xs font-black uppercase tracking-wider text-white mb-2">After</span>
-                <p className="text-xl font-black text-white">After</p>
+                <span className="inline-block rounded-full bg-(--color-primary) px-4 py-1 text-xs font-black uppercase tracking-wider text-white mb-2">{t("common.after")}</span>
+                <p className="text-xl font-black text-white">{t("common.after")}</p>
               </div>
             </div>
           </div>

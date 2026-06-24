@@ -9,6 +9,9 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  build: {
+    modulePreload: false,
+  },
   resolve: {
     alias: {
       "@": "/src",

@@ -7,7 +7,6 @@ import {
   CONTACT_INFO,
   getNavLinks,
   getLocalizedBusinessName,
-  getLocalizedBusinessTagline,
   getServiceGroups,
   getServiceLinks,
 } from "@/config/constants";
@@ -20,7 +19,6 @@ export const Footer: React.FC = () => {
   const serviceLinks = getServiceLinks(t);
   const serviceGroups = getServiceGroups();
   const displayBusinessName = getLocalizedBusinessName(t).replace(" SRL", "");
-  const displayTagline = getLocalizedBusinessTagline(t);
   const primaryServices = serviceLinks.slice(0, 6);
   const additionalServices = serviceLinks.slice(6, 11);
   const companyLinks = navLinks.filter((link) => ["about", "gallery", "faq", "contact"].includes(link.key));
@@ -34,24 +32,15 @@ export const Footer: React.FC = () => {
               to="/"
               className="flex items-center gap-3 mb-5 transition-opacity hover:opacity-80"
             >
-              <div className="bg-white w-12 h-12 rounded-full border border-[#ded6c8] p-1.5 overflow-hidden">
-                <img
-                  src={BUSINESS_INFO.LOGO}
-                  alt={t("header.logo", { name: displayBusinessName })}
-                  className="w-full h-full object-contain"
-                />
-              </div>
-              <div className="min-w-0">
-                <span className="block font-display font-black text-sm leading-tight tracking-tight">
-                  {displayBusinessName}
-                </span>
-                <span className="block text-[11px] text-(--color-primary) font-semibold leading-tight">
-                  {displayTagline}
-                </span>
-              </div>
+              <img
+                src={BUSINESS_INFO.LOGO}
+                alt={t("header.logo", { name: displayBusinessName })}
+                className="w-14 h-14 object-cover rounded-full"
+              />
+
             </Link>
             <p className="text-(--color-text-muted) text-sm leading-relaxed mb-5">
-              Your outdoor space, our priority.
+              {t("footer.tagline")}
             </p>
             <ul className="space-y-3 text-sm">
               <li>
@@ -142,15 +131,15 @@ export const Footer: React.FC = () => {
             <ul className="space-y-2 text-xs text-(--color-text-muted)">
               <li className="flex items-start gap-1.5">
                 <span className="font-semibold text-(--color-primary)">{t("footer.hours_label")}</span>
-                <span>{CONTACT_INFO.HOURS}</span>
+                <span>{t("contact.info.hours")}</span>
               </li>
               <li className="flex items-start gap-1.5">
                 <span className="font-semibold text-(--color-primary)">{t("footer.payment_label")}</span>
-                <span>{CONTACT_INFO.PAYMENT_METHODS}</span>
+                <span>{t("contact.info.payment")}</span>
               </li>
               <li className="flex items-start gap-1.5">
                 <span className="font-semibold text-(--color-primary)">{t("footer.area_label")}</span>
-                <span>23185</span>
+                <span>{t("footer.zip")}</span>
               </li>
             </ul>
           </div>

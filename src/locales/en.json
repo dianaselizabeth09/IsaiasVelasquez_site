@@ -8,6 +8,9 @@
     "gallery": "Gallery",
     "previous": "Previous",
     "next": "Next",
+    "before": "Before",
+    "after": "After",
+    "slide": "Show slide {{number}}",
     "play": "Play",
     "pause": "Pause"
   },
@@ -23,6 +26,13 @@
       "service_areas": "Service Areas"
     },
     "cta": "Get a Quote",
+    "nav_meta": {
+      "tree_care": "TREE CARE",
+      "decks_patios": "DECKS & PATIOS",
+      "landscape_care": "LANDSCAPE CARE",
+      "extra_services": "EXTRA SERVICES",
+      "lawn_care": "LAWN CARE"
+    },
     "language": {
       "en": "EN",
       "es": "ES"
@@ -36,6 +46,7 @@
     }
   },
   "footer": {
+    "tagline": "Your outdoor space, our priority.",
     "about": "Professional landscaping and outdoor services for residential and commercial clients.",
     "quick_links": {
       "title": "Quick Links",
@@ -69,6 +80,7 @@
     "copyright_rights": "All rights reserved.",
     "about_description": "Tree services, decks, patios, lawn care, landscape maintenance, cleanup, mulching, rocks, trimming, edging, and more.",
     "marketing_by": "Marketing by",
+    "zip": "23185",
     "main_services": "Main Services",
     "more_services": "More Services",
     "company": "Company",
@@ -306,7 +318,12 @@
       "title": "Need outdoor service this week?",
       "text": "Send a message with your service type, property location, and preferred schedule. We will respond with the next step."
     },
-    "about": {
+  "related_services": {
+    "title": "More Landscaping & Outdoor Services",
+    "subtitle": "Explore related services designed to keep your property clean, green, and professionally maintained.",
+    "cta": "Request this service"
+  },
+  "about": {
       "label": "About Company",
       "title": "Outdoor spaces maintained with pride and precision.",
       "text": "{{business}} provides landscaping and outdoor services for residential and commercial clients in the 23185 service area. The goal is simple: make your property look clean, healthy, and professionally cared for from the first visit."
@@ -411,6 +428,7 @@
       "title": "Contact Information",
       "location_title": "Service Area",
       "contact_title": "Phone",
+      "payment": "Cash & Zelle",
       "email_title": "Email",
       "hours_title": "Business Hours",
       "map_placeholder_title": "Local Service Areas",

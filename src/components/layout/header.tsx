@@ -6,7 +6,6 @@ import {
   CONTACT_INFO,
   getNavLinks,
   getLocalizedBusinessName,
-  getLocalizedBusinessTagline,
   getLocalizedServiceGroups,
   getServicePath,
 } from "@/config/constants";
@@ -25,60 +24,52 @@ export const Header: React.FC = () => {
   const menuItems = getNavLinks(t);
   const serviceGroups = getLocalizedServiceGroups(t);
   const displayBusinessName = getLocalizedBusinessName(t).replace(" SRL", "");
-  const displayTagline = getLocalizedBusinessTagline(t);
-  const getGroupMeta = (title: string) => {
-    if (title === "Tree Services") {
-      return { icon: "T", iconClass: "bg-lime-100 text-lime-700", label: "TREE CARE" };
+  const getGroupMeta = (key: string) => {
+    if (key === "Tree Services") {
+      return { icon: "T", iconClass: "bg-lime-100 text-lime-700", label: t("header.nav_meta.tree_care") };
     }
 
-    if (title === "Outdoor Living") {
-      return { icon: "D", iconClass: "bg-orange-100 text-orange-700", label: "DECKS & PATIOS" };
+    if (key === "Outdoor Living") {
+      return { icon: "D", iconClass: "bg-orange-100 text-orange-700", label: t("header.nav_meta.decks_patios") };
     }
 
-    if (title === "Landscape Services") {
-      return { icon: "L", iconClass: "bg-emerald-100 text-emerald-700", label: "LANDSCAPE CARE" };
+    if (key === "Landscape Services") {
+      return { icon: "L", iconClass: "bg-emerald-100 text-emerald-700", label: t("header.nav_meta.landscape_care") };
     }
 
-    if (title === "Cleanup & More") {
+    if (key === "Cleanup & More") {
       return {
         icon: "+",
         iconClass: "bg-sky-100 text-sky-700",
-        label: "EXTRA SERVICES",
+        label: t("header.nav_meta.extra_services"),
       };
     }
 
     return {
       icon: "L",
       iconClass: "bg-emerald-100 text-emerald-700",
-      label: "LAWN CARE",
+      label: t("header.nav_meta.lawn_care"),
     };
   };
 
   return (
-    <header className="fixed top-0 w-full bg-(--color-bg-light)/90 backdrop-blur-md shadow-sm z-50 border-b border-(--color-primary)/10">
-      <div className="max-w-7xl mx-auto px-4 md:px-8 py-4 flex items-center justify-between">
-        <Link
-          to="/"
-          className="flex items-center space-x-3 transition-transform hover:scale-[1.02] duration-300"
-        >
-          <div className="bg-(--color-bg-light) w-10 h-10 md:w-11 md:h-11 rounded-xl shadow-md border border-(--color-primary)/20 p-1 overflow-hidden">
+    <header className="fixed top-0 w-full bg-white shadow-sm z-50 border-b border-(--color-primary)/10">
+      <div className="max-w-7xl mx-auto px-4 md:px-8 py-3 flex items-center">
+        <div className="flex items-center shrink-0">
+          <Link
+            to="/"
+            className="flex items-center space-x-3 transition-transform hover:scale-[1.02] duration-300"
+          >
             <img
               src={BUSINESS_INFO.LOGO}
               alt={t("header.logo", { name: displayBusinessName })}
-              className="w-full h-full object-contain"
+              className="w-14 h-14 md:w-16 md:h-16 object-cover"
             />
-          </div>
-          <div className="hidden sm:block">
-            <p className="text-sm font-black text-(--color-bg-dark) leading-tight tracking-tight">
-              {displayBusinessName.toUpperCase()}
-            </p>
-            <p className="text-[10px] text-(--color-primary) font-bold uppercase tracking-[0.2em] -mt-0.5">
-              {displayTagline}
-            </p>
-          </div>
-        </Link>
+          </Link>
+        </div>
 
-        <nav className="hidden lg:flex items-center space-x-6">
+        <div className="flex-1 flex justify-center">
+          <nav className="hidden lg:flex items-center space-x-6">
           {menuItems.map((item) => {
             if (item.key !== "services") {
               return (
@@ -171,13 +162,14 @@ export const Header: React.FC = () => {
               </div>
             );
           })}
-        </nav>
+          </nav>
+        </div>
 
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-4 shrink-0">
           <button
             onClick={toggleLanguage}
             className="inline-flex items-center gap-1.5 rounded-full border border-(--color-bg-dark)/20 bg-(--color-bg-dark) px-3 py-1.5 text-xs font-black uppercase tracking-wide text-white shadow-md transition-all hover:-translate-y-0.5 hover:bg-(--color-primary) hover:shadow-lg"
-            aria-label="Change language"
+            aria-label={t("header.change_language")}
           >
             <span className="flex h-4 w-4 items-center justify-center rounded-full bg-white/15 text-[10px]">
               x
@@ -279,7 +271,7 @@ export const Header: React.FC = () => {
               href={CONTACT_INFO.PHONE_CALL}
               className="flex items-center justify-center rounded-xl border border-(--color-primary)/20 py-3 text-sm font-bold text-(--color-primary)"
             >
-              Call {CONTACT_INFO.PHONE_DISPLAY}
+              {t("home_page.hero.call")} {CONTACT_INFO.PHONE_DISPLAY}
             </a>
           </nav>
         </div>

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import { useTranslation } from "react-i18next";
 import { APP_SERVICES, getServicePath } from "@/config/constants";
 
 interface RelatedServicesProps {
@@ -9,6 +9,7 @@ interface RelatedServicesProps {
 export const RelatedServices: React.FC<RelatedServicesProps> = ({
   currentServiceKey,
 }) => {
+  const { t } = useTranslation();
   const relatedServices = APP_SERVICES.filter(
     (service) => service.key !== currentServiceKey,
   ).slice(0, 6);
@@ -22,10 +23,10 @@ export const RelatedServices: React.FC<RelatedServicesProps> = ({
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="template-reveal text-center mb-14">
           <h2 className="text-4xl md:text-5xl font-bold text-(--color-text-primary) mb-4">
-            More Landscaping & Outdoor Services
+            {t("related_services.title")}
           </h2>
           <p className="text-lg text-(--color-text-muted) max-w-2xl mx-auto">
-            Explore related services designed to keep your property clean, green, and professionally maintained.
+            {t("related_services.subtitle")}
           </p>
         </div>
 
@@ -62,7 +63,7 @@ export const RelatedServices: React.FC<RelatedServicesProps> = ({
                   </p>
 
                   <span className="inline-flex items-center gap-2 text-(--color-primary) font-semibold group-hover:text-(--color-primary-hover) transition-colors">
-                    Request this service
+                    {t("related_services.cta")}
                     <svg
                       className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1"
                       fill="none"

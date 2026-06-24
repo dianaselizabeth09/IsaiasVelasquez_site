@@ -8,6 +8,9 @@
     "gallery": "Galería",
     "previous": "Anterior",
     "next": "Siguiente",
+    "before": "Antes",
+    "after": "Después",
+    "slide": "Mostrar diapositiva {{number}}",
     "play": "Reproducir",
     "pause": "Pausar"
   },
@@ -23,6 +26,14 @@
       "service_areas": "Áreas de Servicio"
     },
     "cta": "Solicitar Información",
+    "nav_meta": {
+      "tree_care": "CUIDADO DE ÁRBOLES",
+      "decks_patios": "DECKS Y PATIOS",
+      "landscape_care": "CUIDADO DE PAISAJISMO",
+      "extra_services": "SERVICIOS EXTRA",
+      "lawn_care": "CUIDADO DE CÉSPED"
+    },
+    "change_language": "Cambiar idioma",
     "language": {
       "en": "EN",
       "es": "ES"
@@ -36,6 +47,7 @@
     }
   },
   "footer": {
+    "tagline": "Tu espacio exterior, nuestra prioridad.",
     "about": "Servicios profesionales de paisajismo y exteriores para clientes residenciales y comerciales.",
     "quick_links": {
       "title": "Enlaces Rápidos",
@@ -69,6 +81,7 @@
     "copyright_rights": "Todos los derechos reservados.",
     "about_description": "Servicios de árboles, decks, patios, césped, mantenimiento, limpieza, acolchado, piedras, poda, bordes y más.",
     "marketing_by": "Marketing por",
+    "zip": "23185",
     "main_services": "Servicios Principales",
     "more_services": "Más Servicios",
     "company": "Compañía",
@@ -306,7 +319,12 @@
       "title": "¿Necesitas servicio exterior esta semana?",
       "text": "Envía un mensaje con el tipo de servicio, ubicación de la propiedad y horario preferido. Responderemos con el siguiente paso."
     },
-    "about": {
+  "related_services": {
+    "title": "Más Servicios de Paisajismo y Exteriores",
+    "subtitle": "Explora servicios relacionados diseñados para mantener tu propiedad limpia, verde y con mantenimiento profesional.",
+    "cta": "Solicitar este servicio"
+  },
+  "about": {
       "label": "Sobre la Empresa",
       "title": "Espacios exteriores mantenidos con orgullo y precisión.",
       "text": "{{business}} ofrece servicios de paisajismo y exteriores para clientes residenciales y comerciales en el área 23185. La meta es simple: hacer que tu propiedad se vea limpia, saludable y cuidada profesionalmente desde la primera visita."
@@ -415,6 +433,7 @@
       "hours_title": "Horario de Atención",
       "map_placeholder_title": "Área de Servicio",
       "map_placeholder_text": "Contáctanos con tu ubicación para confirmar disponibilidad de servicios de paisajismo y exteriores.",
+      "payment": "Efectivo y Zelle",
       "location": "Área de servicio 23185",
       "phone": "(804) 854-6205",
       "email": "velasquezisaias038@gmail.com",
