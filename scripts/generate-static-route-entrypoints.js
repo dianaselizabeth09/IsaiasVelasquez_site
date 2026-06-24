@@ -3,7 +3,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const distDir = path.join(__dirname, "../dist");
+const distDir = path.join(__dirname, "../docs");
 const constantsPath = path.join(__dirname, "../src/config/constants.ts");
 const distIndexPath = path.join(distDir, "index.html");
 const dist404Path = path.join(distDir, "404.html");

@@ -4,6 +4,9 @@ import { resolve } from "path";
 
 export default defineConfig({
   base: "/IsaiasVelasquez_site/",
+  build: {
+    outDir: "docs",
+  },
   plugins: [react()],
   resolve: {
     alias: {
