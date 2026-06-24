@@ -133,7 +133,7 @@ export default function HomePage() {
                 {currentSlide.badge}
               </p>
               <h1 className="max-w-5xl text-4xl font-black leading-[1.05] text-white md:text-5xl lg:text-6xl">
-                {currentSlide.title}
+                {heroSlides[1].title}
               </h1>
               <p className="mt-7 max-w-2xl text-lg leading-relaxed text-white/82 md:text-xl">
                 {currentSlide.subtitle}
